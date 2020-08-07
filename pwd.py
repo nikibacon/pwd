@@ -11,6 +11,7 @@ while count <= 3:
 
 	if user_pwd == pwd:
 		print('登入成功!')
+		break
 	elif pwd_count > 0:		
 		count = count + 1
 		print('密碼錯誤!還有' ,pwd_count, '次機會')
